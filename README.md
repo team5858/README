@@ -13,3 +13,9 @@ We use GIT (where you are now) to hold our code.
 Instructions on using [Eclipse and GIT](EclipseAndGIT.md)
 
 (Make this look pretty later...)  Download the CTRE stuff here:  http://www.ctr-electronics.com/hro.html#product_tabs_technical_resources
+
+# Usefult API Docs
+
+  - [Pigeon IMU User's Guide](http://www.ctr-electronics.com/downloads/pdf/Pigeon%20IMU%20User's%20Guide.pdf)
+  - [RS7 Encoder](https://www.armabot.com/products/rs7-encoder)
+
