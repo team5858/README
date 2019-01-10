@@ -1,4 +1,4 @@
-# How to program the wifi router (radio) for the current year:
+# How to program the wifi router (radio) for the current year
 
 https://wpilib.screenstepslive.com/s/currentCS/m/getting_started/l/144986-programming-your-radio
 
