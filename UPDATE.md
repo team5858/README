@@ -1,3 +1,9 @@
+# How to program the wifi router (radio) for the current year:
+
+https://wpilib.screenstepslive.com/s/currentCS/m/getting_started/l/144986-programming-your-radio
+
+Scroll down to "Download the software" and pick the current ZIP. The ZIP contains the PC executable.
+
 # How to configure your computer for FRC
 
 These steps come from https://robotpy.readthedocs.io/en/stable/index.html
