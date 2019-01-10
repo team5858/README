@@ -1,31 +1,47 @@
 # How to configure your computer for FRC
 
+These steps come from https://robotpy.readthedocs.io/en/stable/index.html
+
 ## Make sure you have python37 or better installed
+
+At the Windows Command prompt, make sure the versions are correct:
+```
+pip3 --version
+
+py --version
+```
+Do you see Python3.7 or better? If so, skip to the next step. Otherwise:
 
   - Go to https://www/python.org/downloads/
   - Push the button for "Download Python3.x.x". This downloads the installer. 
   - Run the installer.
   - Add the python scripts directory to your path. You'll need this for `pip3` and `robotpy-installer`. On my machine it is `C:\Users\tophe\appdata\Local\Programs\Python\Python37-32\Scripts`.
+  - Close any command prompts and retry the checks above
 
-At the Windows Command prompt:
-```
-py
+## Install the FRC Update Suite on your laptop
 
+This gets you the Driver Station and the RoboRIO tool
 
-update/install the FRC software on your computer
+If you have the `RoboRIO Imaging Tool` and `FRC Driver Station` on your desktop, then open them and verify the version. If they are correct then skip to the next step. Otherwise:
 
-  - Uninstall the National Instruments software
-  - www.ni.com/download/ ... pick the current zip
+  - As of this writing, the desirecd version is 19.0
+  - Uninstall previous versions of `National Instruments` software
+  - Go to  www.ni.com/download/ ... pick the current zip
   - unzip and run
   
-# How to update/install the RobotPy libraries
+## Install or update RobotPy libraries
 
   - pip3 install --upgrade pyfrc
-  
-# Install the CTRE libs locally (for the simulator)
-
+  - verify the install at the command prompt with the command `robotpy-installer`
   - pip3 install -U robotpy-ctre
-  - install the CTRE lifeboat exe to configure CAN and succh
+  - you might need to download/install the CTRE Lifeboat PC application to configure CAN and run CAN diagnostics
+
+# Pushing RobotPy to the RoboRIO
+
+  - robotpy-installer download-robotpy
+
+  - Connect your RoboRIO and PC to the router  
+  - robotpy-installer install-robotpy
+  - robotpy-installer download-opkg python37-robotpy-ctre
+  - robotpy-installer install-opkg python37-robotpy-ctre
   
-# Install RobotPy installer (used to flash the RoboRIO)
-  - pip3 install robotpy-installer
