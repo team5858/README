@@ -26,7 +26,7 @@ Do you see Python3.7 or better? If so, skip to the next step. Otherwise:
 
 ## Install the FRC Update Suite on your laptop
 
-This gets you the Driver Station and the RoboRIO tool
+This gets you the Driver Station and the RoboRIO tool.
 
 If you have the `RoboRIO Imaging Tool` and `FRC Driver Station` on your desktop, then open them and verify the version. If they are correct then skip to the next step. Otherwise:
 
