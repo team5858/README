@@ -1,10 +1,10 @@
 # How to reflash the roborio
 
-  - Launch image tool
+  - Launch imaging tool
   - Update firmware
   - Reformat roboRIO
-  
-
+  - robotpy-installer install-robotpy
+  - robotpy-installer install-opkg python37-robotpy-ctre
 # How to program the wifi router (radio) for the current year
 
 https://wpilib.screenstepslive.com/s/currentCS/m/getting_started/l/144986-programming-your-radio
